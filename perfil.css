@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+body {
+    background: linear-gradient(#141e30, #1adff9);
+    min-height: 768px;
+    min-width: 1024px;
+}
+
+.wrapper {
+    /*Contenedor padre o envoltorio de la pagina*/
+    width: 100%;
+}
+
+.container {
+    /*Contenedor hijo donde va el contenido*/
+    width: 100%px;
+    background-color: #0f8992;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido {
+    /*Donde va el contenido oficial de la pagina */
+    position: fixed;
+    margin-left: auto;
+    width: 100%;
+    background-color: rgb(100, 100, 158);
+    height: 100%;
+    z-index: 1;
+}
+
+
+/*--------------------------------------------------------Imagen de perfil--------------------------------------------------------------*/
+
+.contenedor {
+    /*Contenedor de la barra de imagenes */
+    position: fixed;
+    margin-top: 56px;
+    height: 100%;
+    padding-bottom: 20px;
+    background-color: #093a41;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.avatar {
+    margin-top: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #FFF;
+    width: 245px;
+    height: 245px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    /*background-color: #5a5a5a; */
+    background: url(https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/279935834_10227942964578003_2575198969725214127_n.jpg?stp=dst-jpg_p320x320&_nc_cat=102&ccb=1-7&_nc_sid=0c64ff&_nc_ohc=MW5P8WPlRN4AX-s8VsX&_nc_ht=scontent-iad3-2.xx&edm=AP4hL3IEAAAA&oh=00_AT-DKVGKC4yMOEjzE3uhfFssWX0topnv4TsQ-T2vEiU_ZQ&oe=629B9A35) no-repeat center;
+    z-index: 3;
+}
+
+.nombre {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+    margin-top: 15px;
+}
+
+.info {
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-family: fantasy;
+}
+
+.notificaciones {
+    /*cuadrado donde va el texto notificaciones */
+    padding: 8px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    height: 20px;
+    width: auto;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+
+/*--------------------------------------------v-------------------MENU---------------------------------------------------------------------*/
+
+.menu li {
+    float: left;
+    list-style: none;
+    margin: 5px;
+    padding: 12px;
+    align-content: center;
+    border: 2px dashed #2b986C;
+}
+
+.menu ul li a {
+    display: block;
+    width: auto;
+    height: 50px;
+}
+
+hr {
+    border-style: dashed;
+    margin: 5px 30px auto 30px;
+}
+
+a,
+a:hover,
+a:visited,
+a:link,
+a:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------------FIN MENU---------------------------------------------------------------*/
+
+.cortar {
+    margin-left: 270px;
+    /*Separacion de la seccion de foto perfil*/
+    width: 200px;
+    height: 20px;
+    padding: 30px;
+    border: 1px solid blue;
+    text-overflow: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cortar:hover {
+    width: 300px;
+    white-space: initial;
+    overflow: visible;
+    cursor: pointer;
+}
+
+
+/*------------------------------------------------------------------punto suspencivo en texto ---------------------------------------*/
+
+.cabecera {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    /*ancho de la barra*/
+    background-color: rgb(214, 20, 20);
+    /*  border-color: transparent transparent #000 transparent ;
+*  border-width: 2px;
+*   border-style: solid; */
+    /*-----------------Sombra de fondo-------------------*/
+    /*  -webkit-box-shadow: 0px 6px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 3px 0px rgba(0,0,0,0.75); */
+    z-index: 9999999;
+}
+
+p {
+    border: 20px;
+    margin: 5px;
+}
